@@ -1,0 +1,61 @@
+a {
+	color: white !important;
+}
+
+a:hover {
+	color: #00AEAE !important;
+	background-color: #02615d !important;
+}
+
+nav {
+	background-color: #02615d;
+	padding-bottom: 10px !important;
+	font-family: calibri;
+	font-size: 17px;
+}
+
+.Piaic_Logo {
+	position: absolute;
+	margin-top: -20px;
+	z-index: 2147483647;
+}
+
+#navbar_collapse_icon {
+	color: white !important;
+	border-bottom: solid 1px white;
+	border-top: solid 1px white;
+}
+
+.ai,
+.cnc,
+.bcc,
+.the_president {
+	border-bottom: 1px solid rgb(34, 221, 221);
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
+i {
+	color: white;
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape),
+(orientation: portrait) {
+	.how_it_works {
+		margin-top: 145px !important;
+		border-bottom: 1px solid rgb(34, 221, 221);
+	}
+	.apply,
+	.available_programs,
+	.about {
+		border-bottom: 1px solid rgb(34, 221, 221);
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.ai,
+	.cnc,
+	.bcc,
+	.the_president {
+		border: none;
+	}
+}

@@ -1,0 +1,1063 @@
+.top_iot_div {
+	background-color: #1b8f8b;
+	height: 90vh;
+	color: white;
+}
+
+.internet_of_things {
+	text-align: center;
+	font-size: 5vw;
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.3;
+	letter-spacing: normal;
+	margin-top: 220px;
+}
+
+.top_iot_para {
+	white-space: pre-line;
+	font-size: 1vw;
+	width: 70vw;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 600;
+	word-spacing: 1px;
+	letter-spacing: normal;
+	text-align: center;
+	line-height: 10px;
+}
+
+.program_structure {
+	font-size: 2.5rem;
+	color: #192a56;
+	text-align: center;
+	font-family: inherit;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin-top: 30px;
+}
+
+.program_structure_para {
+	font-size: 1.3vw;
+	font-weight: 500;
+	text-align: center;
+	color: #192a56;
+	margin-top: 50px;
+}
+
+.technical_track {
+	margin-left: 50px;
+	font-weight: bold 600;
+	text-transform: capitalize;
+	color: rgb(43, 100, 95);
+}
+
+.q1_rectangle {
+	background-color: #fff;
+	color: #1b8f8b;
+	width: 100%;
+	font-size: 1vw;
+	height: 20vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .521);
+}
+
+.q1_heading {
+	font-size: 2vw;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+}
+
+.q1_para {
+	font-size: 1vw;
+	font-weight: 450;
+}
+
+.q2_rectangle {
+	background-color: rgba(27, 143, 139, .13);
+	color: black;
+	width: 100%;
+	font-size: 1vw;
+	height: 20vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .521);
+}
+
+.q2_heading {
+	font-size: 2vw;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+}
+
+.q2_para {
+	font-size: 1vw;
+	font-weight: 450;
+}
+
+.q3_rectangle {
+	background-color: rgba(27, 143, 139, .25);
+	color: black;
+	width: 100%;
+	font-size: 1vw;
+	height: 20vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .521);
+}
+
+.q3_heading {
+	font-size: 2vw;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+}
+
+.q3_para {
+	font-size: 1vw;
+	font-weight: 450;
+}
+
+.q4_rectangle {
+	background-color: rgba(27, 143, 139, .38);
+	color: black;
+	width: 100%;
+	font-size: 1vw;
+	height: 20vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .521);
+}
+
+.q4_heading {
+	font-size: 2vw;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+}
+
+.q4_para {
+	font-size: 1vw;
+	font-weight: 450;
+}
+
+.q5_rectangle {
+	background-color: rgba(27, 143, 139, .5);
+	color: black;
+	width: 100%;
+	font-size: 1vw;
+	height: 20vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .521);
+}
+
+.q5_heading {
+	font-size: 2vw;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+}
+
+.q5_para {
+	font-size: 1vw;
+	font-weight: 450;
+}
+
+.q6_rectangle {
+	background-color: #22a19d;
+	color: black;
+	width: 100%;
+	font-size: 1vw;
+	height: 20vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .521);
+}
+
+.q6_heading {
+	font-size: 2vw;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+}
+
+.q6_para {
+	font-size: 1vw;
+	font-weight: 450;
+}
+
+.compulsory_innovation_track {
+	margin-left: 50px;
+	font-weight: bold 600;
+	text-transform: capitalize;
+	color: rgb(43, 100, 95);
+}
+
+.gif {
+	display: block;
+	margin: 70px auto auto auto;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	width: 45%;
+	height: auto;
+}
+
+.q1_innovation_rectangle {
+	background-color: white;
+	color: black;
+	width: 100%;
+	font-size: 1vw;
+	height: 20vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .521);
+}
+
+.q1_innovation_heading {
+	font-size: 2vw;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+}
+
+.q1_innovation_para {
+	font-size: 1vw;
+	font-weight: 450;
+}
+
+.q2_infrastructure_rectangle {
+	background-color: rgba(0, 0, 0, .74);
+	color: white;
+	width: 100%;
+	font-size: 1vw;
+	height: 20vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .521);
+}
+
+.q2_infrastructure_heading {
+	font-size: 2vw;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+}
+
+.q2_infrastructure_para {
+	font-size: 1vw;
+	font-weight: 450;
+}
+
+.q3_lean_rectangle {
+	background-color: black;
+	color: white;
+	width: 100%;
+	font-size: 1vw;
+	height: 20vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .521);
+}
+
+.q3_lean_heading {
+	font-size: 2vw;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+}
+
+.q3_lean_para {
+	font-size: 1vw;
+	font-weight: 450;
+}
+
+.innovation_leadership {
+	background: none !important;
+}
+
+.innovation_leadership:hover {
+	background: none !important;
+	text-decoration: none !important;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.detail_program_structure {
+	font-size: 2.5rem;
+	color: #192a56;
+	text-align: center;
+	font-family: inherit;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin-top: 30px;
+}
+
+.pack-left {
+	justify-content: flex-start;
+}
+
+.iot_circle_line {
+	top: 13vw;
+	height: 4221px;
+	background: #1b8f8b;
+	display: block;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 4px;
+	margin-top: -5%;
+}
+
+.verticle_circle {
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.verticle_circle_right {
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.circle {
+	width: 57px;
+	height: 57px;
+	border: 2px solid #1b8f8b;
+	background: #fff;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	text-align: center;
+	z-index: 11111;
+}
+
+.box_container {
+	display: inline-block;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .26);
+	background-color: #fff;
+	cursor: pointer;
+	width: 30vw;
+}
+
+.heading {
+	color: #192a56;
+	font-size: 1.2vw;
+	font-weight: 700;
+}
+
+.iot_logo_img {
+	width: 8vw;
+	height: 8vw;
+	margin: 0 10px -5px 0;
+	float: left;
+	border: 1px solid grey;
+}
+
+.git_server_img {
+	width: 8vw;
+	height: 8vw;
+	margin: 0 10px -5px 0;
+	float: left;
+	border: 1px solid grey;
+}
+
+.kubernetes_logo_img {
+	width: 8vw;
+	height: 8vw;
+	margin: 0 10px -5px 0;
+	float: left;
+	border: 1px solid grey;
+}
+
+.linux_logo_img {
+	width: 8vw;
+	height: 8vw;
+	margin: 0 10px -5px 0;
+	float: left;
+	border: 1px solid grey;
+}
+
+.docker_logo_img {
+	width: 8vw;
+	height: 8vw;
+	margin: 0 10px -5px 0;
+	float: left;
+	border: 1px solid grey;
+}
+
+.nodejs_logo_img {
+	width: 8vw;
+	height: 8vw;
+	margin: 0 10px -5px 0;
+	float: left;
+	padding-right: 7px;
+	padding-left: 7px;
+	border: 1px solid grey;
+}
+
+.kubeedge_logo_img {
+	width: 8vw;
+	height: 8vw;
+	margin: 0 10px -5px 0;
+	float: left;
+	border: 1px solid grey;
+}
+
+.two {
+	background-color: rgb(33, 184, 179);
+	border-color: rgb(33, 184, 179);
+	color: white;
+}
+
+.A2,
+.B2,
+.C2 {
+	background-color: #8b94aa;
+	border-color: #8b94aa;
+	color: #fff;
+}
+
+.A3,
+.B3,
+.C3,
+.D3,
+.E3,
+.four,
+.five,
+.six {
+	background-color: rgb(27, 143, 139);
+	border-color: rgb(27, 143, 139);
+	color: #fff;
+}
+
+.box_data {
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: justify;
+	word-spacing: 1px;
+	color: #192a56;
+}
+
+.box_container_right {
+	display: inline-block;
+	position: relative;
+	left: 62vw;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .26);
+	background-color: #fff;
+	cursor: pointer;
+	width: 30vw;
+}
+
+@media screen and (max-width: 320px) {
+	.top_iot_div {
+		height: 30vh !important;
+	}
+	.top_iot_para {
+		line-height: 1.4em !important;
+		margin-top: -15px !important;
+	}
+	.top_iot_para_second_line {
+		position: relative !important;
+		top: -15px !important;
+		font-size: 2.6vw !important;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.top_iot_div {
+		height: 35vh !important;
+	}
+	.top_iot_para {
+		margin-top: -17px !important;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.top_iot_div {
+		height: 40vh !important;
+	}
+	.top_iot_para {
+		line-height: 1.4em !important;
+	}
+	.top_iot_para_second_line {
+		position: relative !important;
+		top: -15px !important;
+		font-size: 2.6vw !important;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.q1_rectangle {
+		height: 60vw !important;
+	}
+	.q1_heading {
+		font-size: 6vw !important;
+	}
+	.q1_para {
+		font-size: 3.5vw !important;
+	}
+	.q2_rectangle {
+		height: 60vw !important;
+	}
+	.q2_heading {
+		font-size: 6vw !important;
+	}
+	.q2_para {
+		font-size: 3.5vw !important;
+	}
+	.q3_rectangle {
+		height: 60vw !important;
+	}
+	.q3_heading {
+		font-size: 6vw !important;
+	}
+	.q3_para {
+		font-size: 3.5vw !important;
+	}
+	.q4_rectangle {
+		height: 60vw !important;
+	}
+	.q4_heading {
+		font-size: 6vw !important;
+	}
+	.q4_para {
+		font-size: 3.5vw !important;
+	}
+	.q5_rectangle {
+		height: 60vw !important;
+	}
+	.q5_heading {
+		font-size: 6vw !important;
+	}
+	.q5_para {
+		font-size: 3.5vw !important;
+	}
+	.q6_rectangle {
+		height: 60vw !important;
+	}
+	.q6_heading {
+		font-size: 6vw !important;
+	}
+	.q6_para {
+		font-size: 3.5vw !important;
+	}
+	.q1_innovation_rectangle {
+		height: 60vw !important;
+	}
+	.q1_innovation_heading {
+		font-size: 6vw !important;
+	}
+	.q1_innovation_para {
+		font-size: 3.5vw !important;
+	}
+	.q2_infrastructure_rectangle {
+		height: 60vw !important;
+	}
+	.q2_infrastructure_heading {
+		font-size: 6vw !important;
+	}
+	.q2_infrastructure_para {
+		font-size: 3.5vw !important;
+	}
+	.q3_lean_rectangle {
+		height: 60vw !important;
+	}
+	.q3_lean_heading {
+		font-size: 6vw !important;
+	}
+	.q3_lean_para {
+		font-size: 3.5vw !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.top_iot_div {
+		height: 50vh;
+	}
+	.internet_of_things {
+		font-size: 6vw;
+		font-weight: 700;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.3;
+		letter-spacing: normal;
+		margin-top: 50px;
+	}
+	.top_iot_para {
+		white-space: pre-line;
+		font-size: 3.0vw;
+		width: 70vw;
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: 600;
+		word-spacing: 1px;
+		letter-spacing: normal;
+		text-align: center;
+		line-height: 1.3em;
+		margin-top: -26px;
+	}
+	.top_iot_para_second_line {
+		position: relative;
+		top: -25px;
+		font-size: 2.6vw;
+	}
+	.program_structure_para {
+		font-size: 3.0vw;
+		font-weight: 500;
+		text-align: center;
+		color: #192a56;
+		margin-top: 50px;
+	}
+	.q1_rectangle {
+		height: 35vw;
+	}
+	.q1_heading {
+		font-size: 4vw;
+	}
+	.q1_para {
+		font-size: 2vw;
+	}
+	.q2_rectangle {
+		height: 35vw;
+	}
+	.q2_heading {
+		font-size: 4vw;
+	}
+	.q2_para {
+		font-size: 2vw;
+	}
+	.q3_rectangle {
+		height: 35vw;
+	}
+	.q3_heading {
+		font-size: 4vw;
+	}
+	.q3_para {
+		font-size: 2vw;
+	}
+	.q4_rectangle {
+		height: 35vw;
+	}
+	.q4_heading {
+		font-size: 4vw;
+	}
+	.q4_para {
+		font-size: 2vw;
+	}
+	.q5_rectangle {
+		height: 35vw;
+	}
+	.q5_heading {
+		font-size: 4vw;
+	}
+	.q5_para {
+		font-size: 2vw;
+	}
+	.q6_rectangle {
+		height: 35vw;
+	}
+	.q6_heading {
+		font-size: 4vw;
+	}
+	.q6_para {
+		font-size: 2vw;
+	}
+	.q1_innovation_rectangle {
+		height: 35vw;
+	}
+	.q1_innovation_heading {
+		font-size: 4vw;
+	}
+	.q1_innovation_para {
+		font-size: 2vw;
+	}
+	.q2_infrastructure_rectangle {
+		height: 35vw;
+	}
+	.q2_infrastructure_heading {
+		font-size: 4vw;
+	}
+	.q2_infrastructure_para {
+		font-size: 2vw;
+	}
+	.q3_lean_rectangle {
+		height: 35vw;
+	}
+	.q3_lean_heading {
+		font-size: 4vw;
+	}
+	.q3_lean_para {
+		font-size: 2vw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.heading {
+		font-size: 2.5vw !important;
+	}
+}
+
+@media screen and (max-width: 1285px) {
+	.box_container {
+		width: 40vw;
+	}
+	.box_container_right {
+		width: 40vw;
+		left: 52vw;
+	}
+	.heading {
+		font-size: 1.5vw;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.iot_circle_line {
+		display: none;
+	}
+	.verticle_circle {
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		display: inline-block;
+		margin-top: 5%;
+		left: 25%;
+		transform: translateX(-50%);
+	}
+	.box_container {
+		margin-top: 35%;
+	}
+	.box_container_right {
+		margin-top: 31%;
+	}
+	.verticle_circle_right {
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		display: inline-block;
+		margin-top: 3%;
+		left: 79%;
+		transform: translateX(-50%);
+	}
+	.circle {
+		width: 67px;
+		height: 67px;
+	}
+}
+
+@media screen and (min-width: 280px) and (max-width: 319px) {
+	.detail_containers {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+	.detail_containers {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.box_container_right {
+		position: relative;
+		left: 1px;
+		width: 100%;
+		display: block;
+		margin-top: 130px;
+	}
+	.box_container {
+		width: 100%;
+		display: block;
+		margin-top: 130px;
+	}
+	.verticle_circle {
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		display: inline-block;
+		margin-top: 5%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.verticle_circle_right {
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		display: inline-block;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.iot_logo_img {
+		width: 90px;
+		height: 90px;
+	}
+	.git_server_img {
+		width: 90px;
+		height: 90px;
+	}
+	.linux_logo_img {
+		width: 90px;
+		height: 90px;
+	}
+	.docker_logo_img {
+		width: 90px;
+		height: 90px;
+	}
+	.kubernetes_logo_img {
+		width: 90px;
+		height: 90px;
+	}
+	.nodejs_logo_img {
+		width: 90px;
+		height: 90px;
+	}
+	.kubeedge_logo_img {
+		width: 90px;
+		height: 90px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 856px) {
+	.box_container_right {
+		left: 49vw;
+		width: 40vw;
+	}
+	.verticle_circle {
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		display: inline-block;
+		margin-top: 5%;
+		left: 27%;
+		transform: translateX(-50%);
+	}
+	.verticle_circle_right {
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		display: inline-block;
+		left: 77%;
+		transform: translateX(-50%);
+	}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1005px) {
+	.iot_circle_line {
+		height: 4535px;
+	}
+}
+
+@media screen and (min-width: 1006px) and (max-width: 1036px) {
+	.iot_circle_line {
+		height: 4507px;
+	}
+}
+
+@media screen and (min-width: 1037px) and (max-width: 1048px) {
+	.iot_circle_line {
+		height: 4462px;
+	}
+}
+
+@media screen and (min-width: 1049px) and (max-width: 1062px) {
+	.iot_circle_line {
+		height: 4387px;
+	}
+}
+
+@media screen and (min-width: 1063px) and (max-width: 1098px) {
+	.iot_circle_line {
+		height: 4327px;
+	}
+}
+
+@media screen and (min-width: 1099px) and (max-width: 1133px) {
+	.iot_circle_line {
+		height: 4257px;
+	}
+}
+
+
+/*@media screen and (min-width: 1134px) and (max-width: 1135px)
+{
+    .iot_circle_line{
+        height: 2503px;
+    }
+}*/
+
+@media screen and (min-width: 1134px) and (max-width: 1143px) {
+	.iot_circle_line {
+		height: 4183px;
+	}
+}
+
+@media screen and (min-width: 1144px) and (max-width: 1154px) {
+	.iot_circle_line {
+		height: 4146px;
+	}
+}
+
+
+/*@media screen and (min-width: 1160px) and (max-width: 1191px)
+{
+	.iot_circle_line{
+		height: 2477px;
+	}
+}*/
+
+@media screen and (min-width: 1155px) and (max-width: 1190px) {
+	.iot_circle_line {
+		height: 4128px;
+	}
+}
+
+@media screen and (min-width: 1191px) and (max-width: 1199px) {
+	.iot_circle_line {
+		height: 4108px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1225px) {
+	.iot_circle_line {
+		height: 4090px;
+	}
+}
+
+@media screen and (min-width: 1226px) and (max-width: 1285px) {
+	.iot_circle_line {
+		height: 4031px;
+	}
+}
+
+@media screen and (min-width: 1286px) and (max-width: 1312px) {
+	.iot_circle_line {
+		height: 4729px;
+	}
+}
+
+@media screen and (min-width: 1313px) and (max-width: 1346px) {
+	.iot_circle_line {
+		height: 4654px;
+	}
+}
+
+@media screen and (min-width: 1347px) and (max-width: 1359px) {
+	.iot_circle_line {
+		height: 4617px;
+	}
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1394px) {
+	.iot_circle_line {
+		height: 4548px;
+	}
+}
+
+@media screen and (min-width: 1395px) and (max-width: 1412px) {
+	.iot_circle_line {
+		height: 4538px;
+	}
+}
+
+@media screen and (min-width: 1413px) and (max-width: 1434px) {
+	.iot_circle_line {
+		height: 4502px;
+	}
+}
+
+@media screen and (min-width: 1435px) and (max-width: 1464px) {
+	.iot_circle_line {
+		height: 4465px;
+	}
+}
+
+@media screen and (min-width: 1465px) and (max-width: 1489px) {
+	.iot_circle_line {
+		height: 4445px;
+	}
+}
+
+@media screen and (min-width: 1490px) and (max-width: 1510px) {
+	.iot_circle_line {
+		height: 4392px;
+	}
+}
+
+@media screen and (min-width: 1511px) and (max-width: 1526px) {
+	.iot_circle_line {
+		height: 4315px;
+	}
+}
+
+@media screen and (min-width: 1527px) and (max-width: 1543px) {
+	.iot_circle_line {
+		height: 4314px;
+	}
+}
+
+@media screen and (min-width: 1544px) and (max-width: 1578px) {
+	.iot_circle_line {
+		height: 4280px;
+	}
+}
+
+@media screen and (min-width: 1579px) and (max-width: 1587px) {
+	.iot_circle_line {
+		height: 4274px;
+	}
+}

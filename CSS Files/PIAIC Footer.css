@@ -1,0 +1,15 @@
+.powered_by {
+	text-align: right;
+	color: white;
+	font-size: 13px;
+	font-weight: 500;
+	margin-right: 2px;
+}
+
+.bottom_pana_cloud_logo {
+	position: relative;
+	top: -16px;
+	left: 5px;
+	margin-left: auto;
+	display: block;
+}

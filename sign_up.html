@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>PIAIC</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="Images & Videos/Piaic Website Logo.png" style="height: 132px; width: 32px;">
+        <link href="assets/libs/chartist/chartist.min.css" rel="stylesheet">
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- original css file which includes coloring alignment etc -->
+        <link href="assets/css/PIAIC Sign Up.css" rel="stylesheet" type="text/css">
+        <!-- original css file which includes coloring alignment etc -->
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body style="scroll-behavior: smooth;">        
+        <div class="account-pages my-5 pt-5 main_div">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9 col-lg-7 col-xl-6">
+                        <div class="card overflow-hidden">
+                            <div>
+                                <div class="text-center p-4 upper_bar">
+                                    <h5 class="text-white font-size-20 upper_bar_heading">Student Registration</h5>
+                                </div>
+                            </div>
+                             <div class="Piaic_Logo">
+                                	<img src="Images & Videos/Piaic Website Logo.png" width= "115px" height="210px">
+                                </div>
+                                <h6 class="heading_below_the_logo">Presidential Initiative for <br> Artificial Intelligence and Computing</h6>
+                            <div class="card-body p-4">
+                                <div class="p-3">
+                                    <form  class="form-horizontal mt-4 form" method="post" enctype="multipart/form-data">
+                                          <div class="form-group">
+                                            <label class="email_label">Name</label>
+                                            <input type="text" class="form-control email_form_field" name="student_name" placeholder="Enter Name">
+                                        </div>
+                                          <div class="form-group">
+                                            <label class="email_label">Father's Name</label>
+                                            <input type="text" class="form-control email_form_field" name="father_name" placeholder="Enter Father's Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="cnic_label">CNIC</label>
+                                            <p class="alert_below_to_cnic_label">Please provide your valid CNIC or B-Form number, we will verify it.</p>
+                                            <input type="tel" pattern=".{13,}" class="form-control cnic_form_field" name="cnic" placeholder="Enter CNIC">                                                                                        
+                                        </div>
+                                          <div class="form-group">
+                                            <label class="email_label">Phone</label>
+                                            <input type="tel" class="form-control email_form_field" name="phone" placeholder="Enter Phone">
+                                        </div>
+                                          <div class="form-group">
+                                            <label class="email_label">Email</label>
+                                            <input type="email" class="form-control email_form_field" name="email" placeholder="Enter email">                                                                                                                                  
+                                        </div>
+                                         <div class="form-group">
+                                            <label class="password_label">Password</label>                                           
+                                            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="form-control password_form_field" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" name="password" placeholder="Enter password" required>
+                                        </div>
+                                          <div class="form-group">
+                                            <label class="email_label">City</label>
+                                            <br>
+                                            <select class="select_city" style="width: 100%;" name="selected_city">
+                                                <option>Select City</option>                                                
+                                               <option>Faisalabad</option>
+                                               <option>Lahore</option>
+                                               <option>Karachi</option>                                           
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="email_label">Course</label>
+                                            <br>
+                                            <select class="select_course" style="width: 100%;" name="selected_course">
+                                                <option>Select Course</option>                                                
+                                                <option>Artificial Intelligence</option>
+                                                <option>Cloud Native and Mobile Web Computing</option>
+                                                <option>Blockchain</option>
+                                                <option>Internet of Things</option>
+                                            </select>
+                                        </div>
+                                         <div class="form-group">
+                                            <label class="email_label">Batch</label>
+                                            <br>
+                                            <select class="select_batch" style="width: 100%;" name="batch">
+                                                <option>Select Batch</option>
+                                                <option>Batch 4</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="email_label">Gender</label>
+                                            <br>
+                                            <select class="select_gender" style="width: 100%;" name="gender">
+                                                <option>Select Gender</option>
+                                                <option>Male</option>
+                                                <option>Female</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Upload your latest image</label>
+                                            <br>
+                                            <input type="file" name="user_image">
+                                        </div>
+                                        <div class="mt-5 text-center" style="margin-top: 0px !important;">
+                                        	<p class="already_have_an_account">Already have an account?<a href="sign_in.html" class="font-weight-medium text-primary"> <u>Sign in</u></a></p>
+                                        	<p style="float: right !important;"><a href="how_it_works.html" target="_blank" class="font-weight-medium text-primary"><u>How It Works?</u></a></p>
+                                        </div>
+                                        <p style="color: rgb(209, 81, 81); font-weight: bold; font-size: 14px; margin-top: 55px; line-height: 17px; text-align: center;">By Clicking 'Register' button, I confirm that all the information provided above is valid, truthful and belongs to me and PIAIC reserve the right to take necessary action for incorrect or misleading information</p>
+                                        <div class="form-group row" style="margin-top: 15px !important; margin-bottom: -30px !important">
+                                            <div class="col-12 text-center">
+                                                <button class="btn btn-primary w-md waves-effect waves-light sign_up_button" type="submit">Register</button>
+                                            </div> 
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+        <script src="assets/js/app.js"></script>       
+    </body>
+</html>

@@ -1,0 +1,1172 @@
+.header {
+	width: 100%;
+	background: url("../Images & Videos/president_initiative_bg_img.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: bottom;
+}
+
+.new-upper-bar {
+	height: 40px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-decoration: none;
+}
+
+.presidential {
+	font-size: 5vw;
+	margin-top: 160px;
+	font-family: calibri;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 50px;
+}
+
+.artificial {
+	font-size: 2vw;
+}
+
+.paragraph1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: justify;
+	font-family: calibri;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.button {
+	color: white;
+	padding: 7px 35px 7px 35px;
+	background-image: linear-gradient(270deg, #08d88d, #0eb5a3);
+	border-image: linear-gradient(270deg, #08d88d, #0eb5a3);
+	border-radius: 7px;
+}
+
+.button:hover {
+	color: white;
+}
+
+.verticalline {
+	border-left: 2px solid black;
+	height: 70px;
+	margin-top: 17px;
+}
+
+
+/*COUNTER'S CSS STARTED*/
+
+#shiva {
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.count {
+	line-height: 100px;
+	font-size: 35px;
+}
+
+.count2 {
+	line-height: 100px;
+	font-size: 35px;
+}
+
+#talkbubble {
+	width: 120px;
+	height: 80px;
+	background: red;
+	position: relative;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	float: left;
+}
+
+#talkbubble:before {
+	content: "";
+	position: absolute;
+	right: 100%;
+	top: 26px;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-right: 26px solid red;
+	border-bottom: 13px solid transparent;
+}
+
+
+/*COUNTER'S CSS ENDED*/
+
+.linker {
+	font-size: 20px;
+	color: black;
+}
+
+.applications {
+	margin-top: -28px;
+	font-size: 10px;
+	float: right;
+	margin-right: 72px;
+	font-weight: bolder;
+}
+
+.applicationsreceived {
+	font-size: 10px;
+	padding-left: 38px;
+}
+
+#availableprograms {
+	color: gray;
+	text-align: center;
+	padding-bottom: 20px;
+	font-family: Calibri;
+}
+
+.new-ai-bar {
+	background-color: #192a56;
+}
+
+.ai_heading {
+	background-color: #fff;
+	color: #192a56;
+	width: 100%;
+	height: 8.5vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: none !important;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+}
+
+a .ai_div_hover {
+	display: none;
+}
+
+a .ai_div_hover:hover .ai_hover {
+	transform: scale(1.1);
+}
+
+.ai_hover {
+	transition: all 0.4s ease 0s;
+}
+
+a:hover .ai_div_hover {
+	background-color: #192a56;	
+	color: white;
+	width: 100%;
+	height: 8.5vw;
+	padding-top: 30px;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-bottom: 9.25vw;
+	display: inline-flex;
+	text-transform: uppercase;
+	font-size: 0.7vw;
+	border-radius: 5px;
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+	cursor: pointer;
+	line-height: 1vw;
+}
+
+a:hover .new-ai-bar {
+	display: none;
+}
+
+a:hover .ai_heading {
+	display: none !important;
+}
+
+.new-cnc-bar {
+	background-color: #e1006a;
+}
+
+.cnc_heading {
+	background-color: #fff;
+	color: #e1006a;
+	width: 100%;
+	height: 8.5vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: none !important;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+}
+
+a .cnc_div_hover {
+	display: none;
+}
+
+a .cnc_div_hover:hover .cnc_hover {
+	transform: scale(1.1);
+}
+
+.cnc_hover {
+	transition: all 0.4s ease 0s;
+}
+
+a:hover .cnc_div_hover {
+	background-color: #e1006a;
+	color: white;
+	width: 100%;
+	height: 8.5vw;
+	padding-top: 10px;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-bottom: 10.60vw;
+	display: inline-flex;
+	text-transform: uppercase;
+	font-size: 0.7vw;
+	border-radius: 5px;
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+	line-height: 1vw;
+}
+
+a:hover .new-cnc-bar {
+	display: none;
+}
+
+a:hover .cnc_heading {
+	display: none !important;
+}
+
+.new-bcc-bar {
+	background-color: #fbc314;
+}
+
+.bcc_heading {
+	background-color: #fff;
+	color: #fbc314;
+	width: 100%;
+	height: 8.5vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: none !important;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+}
+
+a .bcc_div_hover {
+	display: none;
+}
+
+a .bcc_div_hover:hover .bcc_hover {
+	transform: scale(1.1);
+}
+
+.bcc_hover {
+	transition: all 0.4s ease 0s;
+}
+
+a:hover .bcc_div_hover {
+	background-color: #fbc314;
+	color: white;
+	width: 100%;
+	height: 8.5vw;
+	padding-top: 30px;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-bottom: 9.25vw;
+	display: inline-flex;
+	text-transform: uppercase;
+	font-size: 0.7vw;
+	border-radius: 5px;
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+	line-height: 1vw;
+}
+
+a:hover .new-bcc-bar {
+	display: none;
+}
+
+a:hover .bcc_heading {
+	display: none !important;
+}
+
+.new-iot-bar {
+	background-color: #1b8f8b;
+}
+
+.iot_heading {
+	background-color: #fff;
+	color: #1b8f8b;
+	width: 100%;
+	height: 8.5vw;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: none !important;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+}
+
+a .iot_div_hover {
+	display: none;
+}
+
+a .iot_div_hover:hover .iot_hover {
+	transform: scale(1.1);
+}
+
+.iot_hover {
+	transition: all 0.4s ease 0s;
+}
+
+a:hover .iot_div_hover {
+	background-color: #1b8f8b;
+	color: white;
+	width: 100%;
+	height: 8.5vw;
+	padding-top: 30px;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-bottom: 9.25vw;
+	display: inline-flex;
+	text-transform: uppercase;
+	font-size: 0.7vw;
+	border-radius: 5px;
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+	line-height: 1vw;
+}
+
+a:hover .new-iot-bar {
+	display: none;
+}
+
+a:hover .iot_heading {
+	display: none !important;
+}
+
+.new-qc-bar {
+	background-color: #61b1ff;
+	opacity: 91%;
+}
+
+.new-qc-bar:hover {
+	background-color: #61b1ff;
+	text-decoration: none;
+}
+
+.quantumcomputing {
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+	padding-top: 55px;
+	padding-bottom: 55px;
+	text-align: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	color: #61b1ff;
+	text-decoration: none;
+	background-color: white;
+}
+
+.quantumcomputing:hover {
+	background-color: #61b1ff;
+	color: white;
+	opacity: 80%;
+	padding-top: 20px;
+	font-size: 12px;
+	text-align: justify;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 48px;
+	text-transform: uppercase;
+}
+
+.quantumcomputing:hover:after {
+	content: attr(data-hover);
+}
+
+.new-sdn-bar {
+	background-color: #9a7401;
+	opacity: 91%;
+}
+
+.new-sdn-bar:hover {
+	background-color: #9a7401;
+	text-decoration: none;
+}
+
+.softwaredefinednetworking {
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .16);
+	padding-top: 55px;
+	padding-bottom: 55px;
+	text-align: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	color: #9a7401;
+	text-decoration: none;
+	background-color: white;
+}
+
+.softwaredefinednetworking:hover {
+	background-color: #9a7401;
+	color: white;
+	opacity: 80%;
+	padding-top: 20px;
+	font-size: 12px;
+	text-align: justify;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 48px;
+	text-transform: uppercase;
+}
+
+.softwaredefinednetworking:hover:after {
+	content: attr(data-hover);
+}
+
+.videos_section {
+	background-color: rgb(43, 41, 41);
+	margin-bottom: -20px;
+	margin-top: 20px;
+}
+
+#videos1 {
+	color: white;
+	padding-top: 50px;
+}
+
+.videos {
+	width: 70% !important;
+}
+
+.video-wrapper {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 74.25%;
+	/* 4:3 ratio */
+	padding-top: 30px;
+	/* IE6 workaround*/
+	height: 0;
+	overflow: hidden;
+}
+
+.video-wrapper-narrow {
+	padding-bottom: 40%;
+}
+
+iframe,
+object,
+embed,
+video,
+.videoWrapper,
+.video-js {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30%;
+}
+
+.video-js,
+img.vjs-poster {
+	width: 100% !important;
+	height: 100% !important;
+	max-width: 100%;
+}
+
+.scroll_videos_columns_div {
+	height: 500px;
+	overflow-y: scroll;
+	background-color: rgb(72, 72, 72);
+}
+
+.scroll_videos_columns_div::-webkit-scrollbar {
+	width: 13px;
+	background-color: rgb(43, 41, 41);
+}
+
+.scroll_videos_columns_div::-webkit-scrollbar-thumb {
+	background-color: rgb(0, 191, 154);
+}
+
+.comingsoon {
+	color: white;
+	padding-top: 30px;
+}
+
+.paragraph2 {
+	color: white;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+.image2 {
+	color: white;
+	padding-top: 50px;
+	padding-left: 15px;
+}
+
+.first_slide_heading,
+.second_slide_heading,
+.third_slide_heading {
+	color: black;
+	padding-top: 20%;
+	user-select: none;
+}
+
+.first_slide_para,
+.second_slide_para,
+.third_slide_para {
+	color: white;
+	user-select: none;
+	text-align: justify;
+}
+
+.paragraph3 {
+	color: white;
+	text-align: justify;
+}
+
+.stratigicpartners {
+	text-align: center;
+	padding-top: 60px;
+	font-family: calibri;
+	color: teal;
+}
+
+.panacloudimage {
+	margin-left: 30px;
+	margin-top: 55px;
+	margin-bottom: 50px;
+	width: 110px;
+	height: 40px;
+}
+
+.psximage {
+	margin-left: 30px;
+	margin-top: 55px;
+	margin-bottom: 50px;
+	width: 40px;
+	height: 40px;
+}
+
+.saylaniimage {
+	margin-left: 30px;
+	margin-top: 55px;
+	margin-bottom: 50px;
+	width: 200px;
+	height: 50px;
+}
+
+.list1 {
+	color: whitesmoke;
+	list-style: none;
+	padding-top: 40px;
+	font-size: 14px;
+}
+
+.link {
+	color: hsla(0, 0%, 100%, .77) !important;
+}
+
+.link:hover {
+	background-color: rgb(32, 47, 57) !important;
+	text-decoration: none;
+	color: hsla(0, 0%, 100%, .77) !important;
+}
+
+.list2 {
+	color: whitesmoke;
+	list-style: none;
+	padding-top: 40px;
+	font-size: 14px;
+}
+
+.list3 {
+	font-size: large;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.list4 {
+	font-size: large;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.list5 {
+	padding-bottom: 10px;
+}
+
+.list6 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: large;
+}
+
+.list7 {
+	padding-top: 40px;
+	font-size: large;
+}
+
+.list8 {
+	padding-top: 20px;
+}
+
+.list9 {
+	color: whitesmoke;
+	list-style: none;
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	font-size: 14px;
+}
+
+.list10 {
+	font-size: large;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.list11 {
+	padding-bottom: 10px;
+}
+
+.list12 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: large;
+}
+
+.lsit13 {
+	padding-bottom: 10px;
+}
+
+.list14 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: large;
+}
+
+.list15 {
+	padding-bottom: 10px;
+}
+
+.list16 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: large;
+}
+
+.list17 {
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1089px) {
+	.ai_hover_heading {
+		font-size: 1.3vw !important;
+	}
+	.ai_heading {
+		height: 14.5vw;
+	}
+	a:hover .ai_div_hover {
+		height: 18.3vw;
+		line-height: 1.3vw;
+		font-size: 1vw;
+	}
+	.cnc_hover_heading {
+		font-size: 1.3vw !important;
+	}
+	.cnc_heading {
+		height: 14.5vw;
+	}
+	a:hover .cnc_div_hover {
+		height: 18.3vw;
+		line-height: 1.3vw;
+		font-size: 1vw;
+	}
+	.bcc_hover_heading {
+		font-size: 1.3vw !important;
+	}
+	.bcc_heading {
+		height: 14.5vw;
+	}
+	a:hover .bcc_div_hover {
+		height: 18.3vw;
+		line-height: 1.3vw;
+		font-size: 1vw;
+	}
+	.iot_hover_heading {
+		font-size: 1.3vw !important;
+	}
+	.iot_heading {
+		height: 14.5vw;
+	}
+	a:hover .iot_div_hover {
+		height: 18.3vw;
+		line-height: 1.3vw;
+		font-size: 1vw;
+	}
+}
+
+@media screen and (max-width: 1085px) {
+	.presidential {
+		margin-top: 50px;
+		margin-left: 0;
+		line-height: 37px;
+	}
+	.artificial {
+		font-size: 2.8vw;
+		line-height: 0px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	a:hover .ai_div_hover {
+		font-size: 1.3vw;
+		line-height: 1.7vw;
+		height: 18.6vw;
+	}
+	.ai_hover_heading {
+		font-size: 1.5vw !important;
+	}
+	.cnc_hover_heading {
+		font-size: 1.5vw !important;
+	}
+	a:hover .cnc_div_hover {
+		height: 18.6vw;
+		font-size: 1.3vw;
+		line-height: 1.7vw;
+		padding-top: 32px;
+		padding-bottom: 10.60vw;
+	}
+	.bcc_hover_heading {
+		font-size: 1.5vw !important;
+	}
+	a:hover .bcc_div_hover {
+		height: 18.6vw;
+		font-size: 1.3vw;
+		line-height: 1.7vw;
+	}
+	.iot_hover_heading {
+		font-size: 1.5vw !important;
+	}
+	a:hover .iot_div_hover {
+		height: 18.6vw;
+		font-size: 1.3vw;
+		line-height: 1.7vw;
+	}
+}
+
+@media screen and (max-width: 928px) {
+	a:hover .ai_div_hover {
+		height: 19vw;
+	}
+	a:hover .cnc_div_hover {
+		height: 19vw;
+	}
+	a:hover .bcc_div_hover {
+		height: 18.9vw;
+	}
+	a:hover .iot_div_hover {
+		height: 18.9vw;
+	}
+}
+
+@media screen and (max-width: 871px) {
+	a:hover .ai_div_hover {
+		height: 19.2vw;
+	}
+	a:hover .cnc_div_hover {
+		height: 19vw;
+	}
+	a:hover .bcc_div_hover {
+		height: 19.3vw;
+	}
+	a:hover .iot_div_hover {
+		height: 19.3vw;
+	}
+}
+
+@media screen and (max-width: 796px) {
+	a:hover .ai_div_hover {
+		height: 19.3vw;
+	}
+	a:hover .cnc_div_hover {
+		height: 19.3vw;
+	}
+	a:hover .bcc_div_hover {
+		height: 19.5vw;
+	}
+	a:hover .iot_div_hover {
+		height: 19.5vw;
+	}
+}
+
+@media screen and (max-width: 777px) {
+	a:hover .ai_div_hover {
+		height: 19.5vw;
+	}
+	a:hover .cnc_div_hover {
+		height: 19.5vw;
+	}
+	a:hover .bcc_div_hover {
+		height: 19.7vw;
+	}
+	a:hover .iot_div_hover {
+		height: 19.7vw;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.presidential {
+		font-size: 4vw;
+		margin-top: 40px;
+		margin-left: 0;
+		line-height: 30px;
+	}
+	.artificial {
+		font-size: 2.6vw;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.ai_heading {
+		height: 22vw;
+	}
+	.ai_hover_heading {
+		font-size: 2.2vw !important;
+	}
+	a:hover .ai_div_hover {
+		height: 27.37vw;
+		font-size: 1.7vw;
+		line-height: 2.5vw;
+		margin-bottom: 15px;
+		padding-right: 70px !important;
+		padding-left: 70px !important;
+	}
+	.cnc_hover_heading {
+		font-size: 2.2vw !important;
+	}
+	.cnc_heading {
+		height: 22vw;
+	}
+	a:hover .cnc_div_hover {
+		height: 27.37vw;
+		font-size: 1.7vw;
+		line-height: 2.5vw;
+		margin-bottom: 15px;
+		padding-right: 70px !important;
+		padding-left: 70px !important;
+	}
+	.bcc_hover_heading {
+		font-size: 2.2vw !important;
+	}
+	.bcc_heading {
+		height: 22vw;
+	}
+	a:hover .bcc_div_hover {
+		height: 27.37vw;
+		font-size: 1.7vw;
+		line-height: 2.5vw;
+		margin-bottom: 15px;
+		padding-right: 70px !important;
+		padding-left: 70px !important;
+	}
+	.iot_hover_heading {
+		font-size: 2.2vw !important;
+	}
+	.iot_heading {
+		height: 22vw;
+	}
+	a:hover .iot_div_hover {
+		height: 27.37vw;
+		font-size: 1.7vw;
+		line-height: 2.5vw;
+		margin-bottom: 15px;
+		padding-right: 70px !important;
+		padding-left: 70px !important;
+	}
+	.first_slide_heading,
+	.second_slide_heading,
+	.third_slide_heading {
+		padding-top: 15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.ai_heading {
+		height: 22vw;
+	}
+	.ai_hover_heading {
+		font-size: 2.2vw !important;
+	}
+	a:hover .ai_div_hover {
+		height: 27.37vw;
+		font-size: 1.7vw;
+		line-height: 2.5vw;
+		margin-bottom: 15px;
+		padding-right: 70px !important;
+		padding-left: 70px !important;
+	}
+	.cnc_hover_heading {
+		font-size: 2.2vw !important;
+	}
+	.cnc_heading {
+		height: 22vw;
+	}
+	a:hover .cnc_div_hover {
+		height: 27.37vw;
+		font-size: 1.7vw;
+		line-height: 2.5vw;
+		margin-bottom: 15px;
+		padding-right: 70px !important;
+		padding-left: 70px !important;
+	}
+	.bcc_hover_heading {
+		font-size: 2.2vw !important;
+	}
+	.bcc_heading {
+		height: 22vw;
+	}
+	a:hover .bcc_div_hover {
+		height: 27.37vw;
+		font-size: 1.7vw;
+		line-height: 2.5vw;
+		margin-bottom: 15px;
+		padding-right: 70px !important;
+		padding-left: 70px !important;
+	}
+	.iot_hover_heading {
+		font-size: 2.2vw !important;
+	}
+	.iot_heading {
+		height: 22vw;
+	}
+	a:hover .iot_div_hover {
+		height: 27.37vw;
+		font-size: 1.7vw;
+		line-height: 2.5vw;
+		margin-bottom: 15px;
+		padding-right: 70px !important;
+		padding-left: 70px !important;
+	}
+}
+
+@media screen and (max-width: 758px) {
+	.ai_heading {
+		height: 167px;
+	}
+	a:hover .ai_div_hover {
+		height: 208px;
+	}
+	.cnc_hover_heading {
+		font-size: 2.2vw !important;
+	}
+	.cnc_heading {
+		height: 167px;
+	}
+	a:hover .cnc_div_hover {
+		height: 208px;
+	}
+	.bcc_heading {
+		height: 167px;
+	}
+	a:hover .bcc_div_hover {
+		height: 208px;
+	}
+	.iot_heading {
+		height: 167px;
+	}
+	a:hover .iot_div_hover {
+		height: 208px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.ai_hover_heading {
+		font-size: 2.6vw !important;
+	}
+	a:hover .ai_div_hover {
+		font-size: 2vw;
+		line-height: 3vw;
+	}
+	.cnc_hover_heading {
+		font-size: 2.6vw !important;
+	}
+	a:hover .cnc_div_hover {
+		font-size: 2vw;
+		line-height: 3vw;
+	}
+	.bcc_hover_heading {
+		font-size: 2.6vw !important;
+	}
+	a:hover .bcc_div_hover {
+		font-size: 2vw;
+		line-height: 3vw;
+	}
+	.iot_hover_heading {
+		font-size: 2.6vw !important;
+	}
+	a:hover .iot_div_hover {
+		font-size: 2vw;
+		line-height: 3vw;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.ai_hover_heading {
+		font-size: 3.2vw !important;
+	}
+	a:hover .ai_div_hover {
+		font-size: 2.7vw;
+		line-height: 4vw;
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+	}
+	.cnc_hover_heading {
+		font-size: 3.2vw !important;
+	}
+	a:hover .cnc_div_hover {
+		font-size: 2.7vw;
+		line-height: 4vw;
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+	}
+	.bcc_hover_heading {
+		font-size: 3.2vw !important;
+	}
+	a:hover .bcc_div_hover {
+		font-size: 2.7vw;
+		line-height: 4vw;
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+	}
+	.iot_hover_heading {
+		font-size: 3.2vw !important;
+	}
+	a:hover .iot_div_hover {
+		font-size: 2.7vw;
+		line-height: 4vw;
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+	}
+}
+
+@media screen and (min-width: 597px) and (max-width: 642px) {
+	.president_img {
+		height: 50% !important;
+		margin-top: 305px;
+	}
+	.paragraph1 {
+		margin-top: 0px;
+		line-height: 21px;
+	}
+	.presidential {
+		font-size: 4vw;
+		margin-top: 40px;
+		margin-left: 0;
+		line-height: 30px;
+	}
+	.artificial {
+		font-size: 2.6vw;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 596px) {
+	.president_img {
+		height: 45% !important;
+		margin-top: 358px;
+	}
+	.paragraph1 {
+		margin-top: 0px;
+		line-height: 21px;
+	}
+	.presidential {
+		font-size: 4.1vw;
+		margin-top: 40px;
+		margin-left: 0;
+		line-height: 30px;
+	}
+	.artificial {
+		font-size: 2.6vw;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.president_img {
+		height: 85% !important;
+		margin-top: 65px;
+		margin-left: 27px;
+		width: 40% !important;
+	}
+	.paragraph1 {
+		margin-top: -20px;
+		line-height: 21px;
+	}
+	.presidential {
+		font-size: 7.1vw;
+		margin-top: 20px;
+		margin-left: 0;
+		line-height: 30px;
+	}
+	.artificial {
+		font-size: 3.8vw;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.president_img {
+		height: 85% !important;
+		margin-top: 65px;
+		margin-left: 27px;
+		width: 50% !important;
+	}
+	.paragraph1 {
+		margin-top: -40px;
+		line-height: 21px;
+	}
+	.presidential {
+		font-size: 7.6vw;
+		margin-top: 30px;
+		margin-left: 0;
+		line-height: 16px;
+	}
+	.artificial {
+		font-size: 4.1vw;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.scroll_videos_columns_div {
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 1121px) {
+	.slider_para {
+		margin-top: 1%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.slider_para {
+		margin-top: 0%;
+	}
+	.image3 {
+		padding-bottom: 20px;
+	}
+}

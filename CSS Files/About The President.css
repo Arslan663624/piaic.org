@@ -1,0 +1,79 @@
+* {
+  font-family: calibri;
+}
+
+.white_circle {
+  width: 136px;
+  height: 136px;
+  margin: 7px;
+  border-radius: 50%
+}
+
+.image1 {
+  background-image: url("../Images & Videos/arif_alvi.png");
+  background-size: cover;
+  background-position: center top;
+  width: 154px;
+  height: 154px;
+  border: solid 3px #00cf9e;
+  border-radius: 50%;
+  background-color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  background-color: rgb(216, 216, 216);
+}
+
+.header_img_below_content {
+  text-align: center;
+  align-items: center;
+}
+
+.heading {
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.paragraph {
+  text-align: center;
+  line-height: 19px;
+}
+
+.image2 {
+  width: 30px;
+  height: 30px;
+}
+
+.image3 {
+  width: 30px;
+  height: 30px;
+}
+
+.paragraph_2 {
+  margin-top: 40px;
+  font-size: larger;
+}
+
+.paragraph_3 {
+  text-align: justify;
+  font-size: larger;
+}
+
+.paragraph_4 {
+  text-align: justify;
+  font-size: larger;
+}
+
+.paragraph_5 {
+  text-align: justify;
+  font-size: larger;
+}
+
+.paragraph_6 {
+  text-align: justify;
+  font-size: larger;
+  padding-bottom: 50px;
+}
