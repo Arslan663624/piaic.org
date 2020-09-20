@@ -1,2 +1,1 @@
-# piaic.org
- 
+Hi everyone! It’s a static website designed in HTML5, CSS3, BOOTSTRAP4 and JAVASCRIPT. All the links of the pages are set, if you wanna try it you just need to download all the files and folders. After that You need to paste all the files and directories in one directory. After that target the “index.html” file with path in your chrome browser or any other browser OR double click to "index.html" file to access the website directly in your default browser.
