@@ -341,7 +341,7 @@ hr {
 	font-weight: 700;
 }
 
-.git_server_img {
+.intro_cloud_img {
 	width: 8vw;
 	height: 8vw;
 	margin: 0 10px -5px 0;
@@ -784,6 +784,46 @@ hr {
 	}
 	.heading {
 		font-size: 2.5vw !important;
+	}
+	.intro_cloud_img{
+		width: 90px;
+		height: 90px;
+	}
+	.linux_logo_img{
+		width: 90px;
+		height: 90px;
+	}
+	.docker_logo_img{
+		width: 90px;
+		height: 90px;
+	}
+	.javascript_logo_img{
+		width: 90px;
+		height: 90px;
+	}
+	.nodejs_logo_img{
+		width: 90px;
+		height: 90px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.git_server_logo_img{
+		width: 90px;
+		height: 90px;
+	}
+	.ansible_logo_img{
+		width: 90px;
+		height: 90px;
+	}
+	.kubernetes_logo_img{
+		width: 90px;
+		height: 90px;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 760px) {
+	.cloud_computing{
+		margin-top: 70px;
 	}
 }
 
