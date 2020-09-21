@@ -16,8 +16,9 @@ nav {
 
 .Piaic_Logo {
 	position: absolute;
-	margin-top: -20px;
+	margin-top: -50px;
 	z-index: 2147483647;
+	white-space: 0;
 }
 
 #navbar_collapse_icon {
@@ -42,7 +43,7 @@ i {
 @media screen and (max-width: 767px) and (orientation: landscape),
 (orientation: portrait) {
 	.how_it_works {
-		margin-top: 145px !important;
+		margin-top: 110px !important;
 		border-bottom: 1px solid rgb(34, 221, 221);
 	}
 	.apply,

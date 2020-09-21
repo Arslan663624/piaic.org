@@ -166,7 +166,7 @@
 
 .gif {
 	display: block;
-	margin: 70px auto auto auto;
+	margin: 20% auto auto auto;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
@@ -469,6 +469,24 @@ hr {
 		top: -15px !important;
 		font-size: 2.6vw !important;
 	}
+	.program_structure{
+		font-size: xx-large;		
+	}
+	.program_structure_para{
+		margin-top: 8px !important;
+	}
+	.technical_track{
+		font-size: 20px !important;
+	}
+	.compulsory_innovation_track{
+		font-size: 20px !important;
+	}
+	.gif{
+		margin-top: 2%;
+	}	
+	.detail_program_structure{
+		font-size: x-large;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -491,6 +509,21 @@ hr {
 		position: relative !important;
 		top: -15px !important;
 		font-size: 2.6vw !important;
+	}		
+	.artificial_intelligence {	
+		margin-top: 70px !important;
+	}
+	#heading{
+		font-size: medium !important;
+	}
+}
+
+@media screen and (max-width: 505px) {
+	.technical_track {
+		font-size: 32px;
+	}
+	.compulsory_innovation_track {
+		font-size: 27px;	
 	}
 }
 
@@ -559,6 +592,17 @@ hr {
 		font-size: 3.5vw !important;
 	}
 }
+
+@media screen and (max-width: 618px) {
+	.technical_track {
+		font-size: xx-large;
+	}
+	.compulsory_innovation_track {
+		font-size: xx-large;	
+	}
+}
+
+
 
 @media screen and (max-width: 767px) {
 	.top_ai_div {
