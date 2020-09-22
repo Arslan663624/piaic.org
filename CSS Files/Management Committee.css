@@ -214,6 +214,36 @@
 	height: 50px;
 }
 
+@media screen and (max-width: 320px) {
+	.panacloudimage {		
+		margin-right: 0px;
+		margin-left: 15px;
+	}	
+	.psximage {		
+		margin-left: 10px;	
+	}	
+	.saylaniimage {
+		width: 120px !important;
+		height: 40px;		
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.panacloudimage {		
+		width: 70px;
+		height: 30px;
+	}	
+	.psximage {		
+		width: 40px;
+		height: 40px;		
+	}	
+	.saylaniimage {
+		width: 180px;
+		height: 50px;		
+	}
+}
+
 @media screen and (min-width: 992px) {
 	.first_div,
 	.second_div,
