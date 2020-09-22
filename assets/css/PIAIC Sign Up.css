@@ -85,7 +85,7 @@
 	color: #00ce9f;
 }
 
-.how_it_works_link{
+.how_it_works_link {
 	float: right !important;
 }
 
@@ -116,23 +116,23 @@ u:hover {
 	background-image: linear-gradient(270deg, #08d88d, #0eb5a3);
 	border: #00ce9f;
 	background-color: white;
-}	
+}
 
-@media screen and (max-width: 375px){	
-	.already_have_an_account{
+@media screen and (max-width: 375px) {
+	.already_have_an_account {
 		display: block;
 		width: 100%;
 	}
-	.how_it_works_link{		
+	.how_it_works_link {
 		position: absolute;
-		left: 40%;		
+		left: 40%;
 		bottom: 11%;
 	}
-	.alert_para{
+	.alert_para {
 		display: block;
-		width: 100%;		
+		width: 100%;
 		position: relative;
-		top: 20px;		
+		top: 20px;
 		left: 0;
 		right: 0;
 	}
