@@ -514,25 +514,7 @@ hr {
 		position: relative !important;
 		top: -15px !important;
 		font-size: 2.6vw !important;
-	}
-	.program_structure{
-		font-size: xx-large;		
-	}
-	.program_structure_para{
-		margin-top: 8px !important;
-	}
-	.technical_track{
-		font-size: 20px !important;
-	}
-	.compulsory_innovation_track{
-		font-size: 20px !important;
-	}
-	.gif{
-		margin-top: 2%;
 	}	
-	.detail_program_structure{
-		font-size: x-large;
-	}
 }
 
 @media screen and (max-width: 375px) {
@@ -561,6 +543,24 @@ hr {
 	}
 	#heading{
 		font-size: medium !important;
+	}
+	.program_structure{
+		font-size: xx-large;		
+	}
+	.program_structure_para{
+		margin-top: 8px !important;
+	}
+	.technical_track{
+		font-size: 20px !important;
+	}
+	.compulsory_innovation_track{
+		font-size: 20px !important;
+	}
+	.gif{
+		margin-top: 2%;
+	}	
+	.detail_program_structure{
+		font-size: x-large;
 	}
 }
 
