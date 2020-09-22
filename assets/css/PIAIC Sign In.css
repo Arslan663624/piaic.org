@@ -52,3 +52,15 @@ u:hover{
 
 	                   background-color: white;
 }
+
+@media screen and (max-width: 320px){
+	.sign_up{
+		margin-right: 0;
+	}
+	.forget_password{
+		margin-left: 0;
+		margin-top: 0;
+		position: absolute;
+		right: 5px;
+	}
+}
