@@ -229,17 +229,39 @@
 	}
 }
 
+@media screen and (max-width: 375px) {
+	.heading1{
+		font-size: x-large;
+	}
+	.panacloudimage {		
+		width: 70px;
+		height: 30px;
+	}	
+	.psximage {		
+		width: 40px;
+		height: 40px;		
+	}	
+	.saylaniimage {
+		width: 120px !important;
+		height: 30px !important;		
+	}
+	.horizontalline{
+		margin-top: 50px;
+	}
+	.stratigicpartners{
+		margin-top: 20px;
+	}
+}
+
 @media screen and (max-width: 425px) {
 	.panacloudimage {		
 		width: 70px;
 		height: 30px;
-	}
-	
+	}	
 	.psximage {		
 		width: 40px;
 		height: 40px;		
-	}
-	
+	}	
 	.saylaniimage {
 		width: 180px;
 		height: 50px;		
