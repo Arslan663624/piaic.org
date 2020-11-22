@@ -1,0 +1,751 @@
+.top_heading {
+  color: white;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.top_hr {
+  border: none;
+  padding: 1px;
+  background: #00d19c;
+  width: 230px;
+  margin-top: -20px;
+}
+
+.A1 {
+  background-color: rgb(0, 207, 158);
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+.heading2 {
+  color: white;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 25px;
+  font-family: calibri;  
+}
+
+.map_img{
+  margin-top: 100px;
+}
+
+.cities_div{
+  width: auto;
+  overflow-x: auto;  
+}
+
+.cities_div::-webkit-scrollbar{
+  background-color: lightgrey;
+}
+
+.cities_div::-webkit-scrollbar-thumb{
+  background-color: #02615d;
+}
+
+.table_heading{
+  width: 200px;
+    font-weight: 600;
+    color: #fff;
+    padding: 7px;
+    margin: auto;
+}
+
+.city_heading{
+  margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+
+tr{
+  display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.karachi_first_col_area{
+  padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.karachi_first_col_area p{
+    width: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #017969;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.small_circle{
+  position: relative;
+  top: -26px;
+  margin-left: 20px;
+  display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #00cf9e;
+    border-radius: 50%;
+}
+.karachi_second_col_area p{
+  color: #017969;
+    background-color: #fff;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;
+    position: relative; 
+    left: -12px;
+    top: -3px;    
+}
+
+.karachi_third_col_area{
+  position: relative;
+   top: -4px;
+}
+
+.karachi_third_col_area p,.islamabad_third_col_area p, .faisalabad_third_col_area p, .sialkot_third_col_area p, .lahore_third_col_area p, .hyderabad_third_col_area p, .peshawar_third_col_area p, .quetta_third_col_area p{
+  font-size: 12px;
+  width: 200px;
+    font-weight: 600;
+    color: #fff;
+    padding: 7px;       
+}
+
+.islamabad_first_col_area{
+  position: relative;
+  top: -25px;    
+    padding-right: 20px;
+}
+
+.islamabad_first_col_area p{
+    width: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #017969;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.islamabad_second_col_area{
+  position: relative; 
+    left: -12px;
+    top: -28px;  
+}
+
+.islamabad_second_col_area p{
+  color: #017969;
+    background-color: #fff;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;    
+}
+
+.islamabad_third_col_area{
+  position: relative;
+  top: -29px;
+}
+
+.faisalabad_first_col_area{
+  position: relative;
+  top: -40px;    
+    padding-right: 20px;
+}
+
+.faisalabad_first_col_area p{
+    width: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #017969;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.faisalabad_second_col_area{
+  position: relative; 
+    left: -12px;
+    top: -45px;  
+}
+
+.faisalabad_second_col_area p{
+  color: #017969;
+    background-color: #fff;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;    
+}
+
+.faisalabad_third_col_area{
+  position: relative;
+  top: -46px;
+}
+
+.sialkot_first_col_area{
+  position: relative;
+  top: -56px;    
+    padding-right: 20px;
+}
+
+.sialkot_first_col_area p{
+    width: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #017969;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sialkot_second_col_area{
+  position: relative; 
+    left: -12px;
+    top: -60px;  
+}
+
+.sialkot_second_col_area p{
+  color: #017969;
+    background-color: #fff;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;    
+}
+
+.sialkot_third_col_area{
+  position: relative;
+  top: -62px;
+}
+
+.lahore_first_col_area{
+  position: relative;
+  top: -70px;    
+    padding-right: 20px;
+}
+
+.lahore_first_col_area p{
+    width: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #017969;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.lahore_second_col_area{
+  position: relative; 
+    left: -12px;
+    top: -75px;  
+}
+
+.lahore_second_col_area p{
+  color: white;
+    background-color: #00d09d;    
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;    
+}
+
+.lahore_third_col_area{
+  position: relative;
+  top: -76px;
+}
+
+.lahore_small_circle{
+  background-color: #00cf9e;
+}
+
+.hyderabad_first_col_area{
+  position: relative;
+  top: -85px;    
+    padding-right: 20px;
+}
+
+.hyderabad_first_col_area p{
+    width: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #017969;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hyderabad_second_col_area{
+  position: relative; 
+    left: -12px;
+    top: -90px;  
+}
+
+.hyderabad_second_col_area p{
+  color: white;
+    background-color: #00d09d;    
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;    
+}
+
+.hyderabad_third_col_area{
+  position: relative;
+  top: -91px;
+}
+
+.hyderabad_small_circle{
+  background-color: #00cf9e;
+}
+
+.peshawar_first_col_area{
+  position: relative;
+  top: -100px;    
+    padding-right: 20px;
+}
+
+.peshawar_first_col_area p{
+    width: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #017969;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.peshawar_second_col_area{
+  position: relative; 
+    left: -12px;
+    top: -105px;  
+}
+
+.peshawar_second_col_area p{
+ color: #017969;
+    background-color: #fff;  
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;    
+}
+
+.peshawar_third_col_area{
+  position: relative;
+  top: -106px;
+}
+
+.quetta_first_col_area{
+  position: relative;
+  top: -115px;    
+    padding-right: 20px;
+}
+
+.quetta_first_col_area p{
+    width: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #017969;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.quetta_second_col_area{
+  position: relative; 
+    left: -12px;
+    top: -118px;  
+}
+
+.quetta_second_col_area p{
+ color: #017969;
+    background-color: #fff;  
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;    
+}
+
+.quetta_third_col_area{
+  position: relative;
+  top: -118px;
+}
+/*.mapimage {
+  width: 370px;
+  height: 330px;
+  padding-top: 70px;
+  margin-bottom: 70px;
+  padding-left: 100px;
+}
+
+.citybycityroadname {
+  color: white;
+  margin-left: 110px;
+  font-family: calibri;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.small_circle{
+  border: solid 2px #00d19c; 
+  border-radius: 150px; 
+  padding-bottom: 3px; 
+  padding-right: 16px;
+  margin-left: 5px; 
+  position: relative; 
+  top: -5px; 
+  background-color: rgb(56, 54, 54); 
+  font-size: 10px;
+}
+
+.karachi1 {
+  color: rgb(1, 121, 105);
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.karachi {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 170px;
+  margin-left: 30px;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.karachiclasessstarted {
+  font-size: 14px;
+  color: white;
+}
+
+.islamabad2 {
+  color: rgb(1, 121, 105);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.islamabad {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 152px;
+  margin-left: 30px;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.islamabadclasessstarted {
+  font-size: 14px;
+  color: white;
+}
+
+.faisalabad3 {
+  color: rgb(1, 121, 105);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.faisalabad {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 152px;
+  margin-left: 30px;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.faisalabadclasessstarted {
+  font-size: 14px;
+  color: white;
+}
+
+.sialkot4 {
+  color: rgb(1, 121, 105);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.sialkot {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 176px;
+  margin-left: 30px;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.sialkotentranceexamisdone {
+  font-size: 14px;
+  color: white;
+}
+
+.lahore5 {
+  color: rgb(1, 121, 105);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.lahore {
+  color: white;
+  background-color: rgb(23, 197, 188);
+  padding-left: 10px;
+  padding-right: 176px;
+  margin-left: 30px;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.lahoreacceptingapplications {
+  font-size: 14px;
+  color: white;
+}
+
+.peshawar6 {
+  color: rgb(1, 121, 105);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.peshawar {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 159px;
+  margin-left: 30px;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.peshawarcommingsoon {
+  font-size: 14px;
+  color: white;
+}
+
+.quetta7 {
+  color: rgb(1, 121, 105);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.quetta {
+  background-color: white;  
+  padding-left: 10px;
+  padding-right: 176px;
+  margin-left: 30px;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.quettacommingsoon {
+  font-size: 14px;
+  color: white;
+}*/
+
+.main_div{
+  background-image: linear-gradient(90deg, rgb(230, 218, 218), rgb(223, 237, 240));
+  box-shadow: rgba(0, 0, 0, 0.16) 1px 3px 20px 0px;
+}
+
+.A2 {
+  background-color: rgb(0, 207, 158);
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+.heading3 {
+  padding-top: 40px;
+  line-height: 35px;
+  color: teal;
+  font-size: 25px;
+  font-family: calibri;
+  text-align: justify;
+}
+
+.list1 {
+  color: black;
+  font-family: calibri;
+  text-align: justify;
+}
+
+.link1 {
+  color: teal;
+  font-family: calibri;
+}
+
+.A3 {
+  background-color: rgb(0, 207, 158);
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 60px;  
+}
+
+.paragraph {
+  margin-top: 55px;
+  color: teal;
+  font-family: calibri;
+  text-align: justify;
+}
+
+.main_div_3{
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 20px 0px;
+  background-image: linear-gradient(270deg, rgb(8, 216, 141), rgb(14, 181, 163));
+  padding-top: 20px; 
+  margin-top: 30px;
+}
+
+.A4 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 207, 158);
+  width: 70px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 60px;
+}
+
+.paragraph2 {
+  margin-top: 30px;
+  color: white;
+  font-family: calibri;
+  text-align: justify;
+}
+
+.paragraph3 {
+  line-height: 32px;
+  color: white;
+  font-family: calibri;
+  text-align: justify;
+}
+
+.paragraph4 {
+  line-height: 32px;
+  color: white;
+  font-family: calibri;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.A5 {
+  background-color: rgb(0, 207, 158);
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 60px;  
+}
+
+.paragraph5 {
+  padding-top: 75px;  
+  color: teal;
+  font-family: calibri;
+  text-align: justify;
+}
+
+.main_div_5{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 20px 0px;
+  background-image: linear-gradient(270deg, rgb(8, 216, 141), rgb(14, 181, 163));
+  padding-top: 20px; 
+  margin-top: 30px;
+}
+
+.A6 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 207, 158);
+  width: 70px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 60px;
+
+}
+
+.paragraph6 {
+  margin-top: 90px;
+  color: white;
+  font-family: calibri;
+  text-align: justify;
+  margin-bottom: 90px;  
+}
+
+.main_div_6{
+  background-color: rgb(51, 50, 45);
+}
+
+.A7 {
+  background-color: rgb(0, 207, 158);
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 60px; 
+}
+
+.paragraph7 {
+  margin-top: 75px;
+  color: white;
+  font-family: calibri;
+  text-align: justify;
+  margin-bottom: 75px;
+}
